@@ -15,8 +15,6 @@ export class CameraPhotoPage {
     const currentUrl = this.page.url();
     await this.page.goto('/camera-photo')
     await expect(this.page).toHaveURL(/.*\/camera-photo/);
-
-    // expect(currentUrl).toContain('/camera-photo');
     await expect(this.page.getByRole('heading', { name: 'Camera & photo' })).toBeVisible()
   }
 
@@ -29,12 +27,5 @@ export class CameraPhotoPage {
   async openEstimateShippingPopup(): Promise<void> {
     await this.page.getByRole('link', { name: 'Please select the address you want to ship to' }).click();
     await this.getLocatorByTestId('estimate-shipping-popup-14').isVisible()
-    // estimate-shipping-popup-14
   }
-
-  // async removeItemFromCart(): Promise<void> {
-  //   await this.removeFromCartBtn.click();
-  //   await expect(this.shoppingCartBadge).toBeHidden();
-  // }
-
 }
