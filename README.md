@@ -1,7 +1,3 @@
-# HeyCar Tech Test
-
-A Playwright-based end-to-end testing project for the nopCommerce demo website, specifically focused on testing camera and photo product functionality.
-
 ## 🚀 Project Overview
 
 This project contains automated tests for the nopCommerce demo website (`https://demo.nopcommerce.com`), with a focus on testing the camera and photo product page. The tests are built using Playwright and follow the Page Object Model pattern for maintainable and scalable test automation.
