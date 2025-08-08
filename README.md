@@ -35,7 +35,7 @@ npx playwright test --reporter=html
 
 ## 📁 Project Structure
 
-```
+
 hc-tech-test/
 ├── e2e-tests/                 # Test specifications
 │   └── heyCarTest_1.spec.ts   # Main test file
@@ -47,7 +47,7 @@ hc-tech-test/
 ├── test-results/             # Test artifacts and traces
 ├── playwright.config.ts      # Playwright configuration
 └── package.json              # Project dependencies
-```
+
 
 ## 🧩 Test Architecture
 
