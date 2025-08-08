@@ -6,11 +6,6 @@ A Playwright-based end-to-end testing project for the nopCommerce demo website, 
 
 This project contains automated tests for the nopCommerce demo website (`https://demo.nopcommerce.com`), with a focus on testing the camera and photo product page. The tests are built using Playwright and follow the Page Object Model pattern for maintainable and scalable test automation.
 
-## 📋 Prerequisites
-
-- Node.js (version 14 or higher)
-- npm or yarn package manager
-
 ## 🛠️ Installation
 
 1. Clone the repository:
@@ -28,7 +23,7 @@ npm install
 
 ### Run all tests
 ```bash
-# Run tests in headed mode (to see browser)
+# Run tests in headed mode (to see browser) - the full cli is located in package.json
 npx playwright test --headed 
 ```
 
@@ -94,8 +89,6 @@ npx playwright show-report
 ```
 
 Reports are generated in the `playwright-report/` directory.
-
-## 🧪 Current Test Coverage
 
 ### Camera & Photo Product Tests
 - **Product Selection**: Selects a Nikon D5500 DSLR product
