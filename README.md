@@ -2,6 +2,15 @@
 
 This project contains automated tests for the nopCommerce demo website (`https://demo.nopcommerce.com`), with a focus on testing the camera and photo product page. The tests are built using Playwright and follow the Page Object Model pattern for maintainable and scalable test automation.
 
+## The Task
+
+In either JavaScript/Typescript, create a UI automation test for the following test case:
+
+Given I land on https://demo.nopcommerce.com/camera-photo
+When I click on any product item card
+And I click on Please select the address you want to ship to
+Then the address modal appears
+
 ## 🛠️ Installation
 
 1. Clone the repository:

@@ -6,8 +6,8 @@ test.describe('james test', () => {
   });
 
   test(`select a product item and confirm the modal appears when clicking on 'select address...' `, async ({ cameraPhotoPage }) => {
-      await cameraPhotoPage.selectAProductItem()
-      await cameraPhotoPage.openEstimateShippingPopup()
+      await cameraPhotoPage.selectAProductItem();
+      await cameraPhotoPage.openEstimateShippingPopup();
   });
 });
 
